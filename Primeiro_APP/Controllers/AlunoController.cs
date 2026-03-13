@@ -6,6 +6,8 @@ namespace Primeiro_APP.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.nota = "Aluno Nota 10";
+            ViewData["Escola"] = "E.E. Anhanguera";
             return View();
         }
     }
